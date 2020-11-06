@@ -1,0 +1,15 @@
+.icono_whats{
+    z-index: 10;
+    height: 4rem;
+    cursor: pointer;
+    width: 4rem;
+    background: url('../../../assets/whatsapp.svg');
+    background-size: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem #6ddc83 !important;
+}
