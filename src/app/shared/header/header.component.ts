@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -13,8 +14,12 @@ export class HeaderComponent implements OnInit {
   contacto_activo: boolean
 
   constructor(
-  ) { 
+    public translate:TranslateService,
+  ) {
     this.contacto_activo = false
+    translate.addLangs(["es","en"])
+    translate.setDefaultLang('es');
+    translate.use('es');
    }
 
   ngOnInit(): void {
@@ -23,13 +28,13 @@ export class HeaderComponent implements OnInit {
   contacto() {
     if ( !this.contacto_activo ){
       document.getElementById('contacto').style.display = "inherit"
-    } else if (this.contacto_activo) { 
+    } else if (this.contacto_activo) {
       this.contacto_activo = false
       document.getElementById('contacto').style.display = "none"
     } else {
       this.contacto_activo = true
       document.getElementById('contacto').style.display = "none"
-    } 
+    }
   }
 
   cambia_head(){
@@ -48,7 +53,7 @@ export class HeaderComponent implements OnInit {
   ir_precio(){
     document.querySelector("body > app-root > app-pages > div > app-inicio > app-precie > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
   }
-  
+
   ir_contacto(){
     document.querySelector("#contacto").scrollIntoView({ block: 'end',  behavior: 'smooth' })
   }
@@ -61,5 +66,9 @@ export class HeaderComponent implements OnInit {
     window.location.assign(`http://${window.location.host}/#/`)
     console.log('apso');
   }
-  
+
+  lang(){
+
+  }
+
 }

@@ -8,7 +8,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxSpinnerModule } from "ngx-spinner";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 @NgModule({
@@ -18,16 +20,27 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     HttpClientModule,
-    
+
     AppRoutingModule,
     NgbModule,
     NgxSpinnerModule,
     SharedModule,
     NgsRevealModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      }
+    })
   ],
   exports:[ ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}

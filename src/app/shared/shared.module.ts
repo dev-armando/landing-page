@@ -5,18 +5,22 @@ import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { WhatsIconComponent } from './whats-icon/whats-icon.component';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
   declarations: [
-    HeaderComponent, 
-    FooterComponent, 
-    PageNotFoundComponent, 
+    HeaderComponent,
+    FooterComponent,
+    PageNotFoundComponent,
     WhatsIconComponent,
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en'
+  })
   ],
   exports: [
     HeaderComponent,
