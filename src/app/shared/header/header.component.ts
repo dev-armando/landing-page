@@ -62,7 +62,7 @@ export class HeaderComponent implements OnInit {
     window.scrollTo({top:0,behavior: 'smooth'})
   }
 
-  kudiska(){
+  LanzaApp(){
     window.location.assign(`http://${window.location.host}/#/`)
     console.log('apso');
   }

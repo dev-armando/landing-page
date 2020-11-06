@@ -7,9 +7,9 @@ import { CookiesComponent } from './cookies/cookies.component';
 
 const routes: Routes = [
   { path:'politica/privacidad', component: PrivacidadComponent },
-  { path:'politica/terminos', component: PrivacidadComponent },
+  { path:'politica/terminos', component: TerminosComponent },
   { path:'politica/cookies', component: CookiesComponent }
-  
+
 ];
 
 @NgModule({
