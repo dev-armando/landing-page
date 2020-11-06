@@ -11,7 +11,7 @@ import { SharedModule } from './shared/shared.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
         useFactory: (createTranslateLoader),
         deps: [HttpClient]
       }
-    })
+    }),
+    RouterModule
   ],
   exports:[ ],
   providers: [],

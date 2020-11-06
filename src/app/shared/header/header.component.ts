@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -43,6 +40,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ir_caracteristica(){
+    window.location.assign(`http://${window.location.host}/#/`)
     document.querySelector("body > app-root > app-pages > div > app-inicio > app-caracteristicas > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
   }
 
@@ -55,10 +53,12 @@ export class HeaderComponent implements OnInit {
   }
 
   ir_contacto(){
+    window.location.assign(`http://${window.location.host}/#/`)
     document.querySelector("#contacto").scrollIntoView({ block: 'end',  behavior: 'smooth' })
   }
 
   ir_top(){
+    window.location.assign(`http://${window.location.host}/#/`)
     window.scrollTo({top:0,behavior: 'smooth'})
   }
 

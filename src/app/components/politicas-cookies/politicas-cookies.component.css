@@ -5,6 +5,9 @@
     left: 0;
     z-index: 100;
 }
+a{
+  cursor: pointer;
+}
 @media (min-width: 0px) and (max-width: 550px){
     .poli_cook{
         flex-direction: column;

@@ -22,7 +22,7 @@ const routes: Routes = [
     ComponentsModule
   ],
   exports: [
-    
+
   ]
 })
 export class PagesModule { }

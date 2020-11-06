@@ -6,8 +6,6 @@ import { SharedModule } from '../../shared/shared.module';
 import { ComponentsModule } from '../../components/components.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgbDatepickerModule, NgbDateParserFormatter, NgbDateAdapter, NgbDateNativeAdapter } from '@ng-bootstrap/ng-bootstrap';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   { path:'inicio', component: InicioComponent }
