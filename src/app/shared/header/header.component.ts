@@ -67,8 +67,8 @@ export class HeaderComponent implements OnInit {
     console.log('apso');
   }
 
-  lang(){
-
+  lang(language:string){
+    this.translate.use(language)
   }
 
 }

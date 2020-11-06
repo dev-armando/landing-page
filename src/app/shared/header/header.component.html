@@ -1,19 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-light w-100" (window:scroll)="cambia_head()">
     <div class="container w-75 ">
-        <a class="navbar-brand py-2" [routerLink]="['/']" >Kudiska</a>
+        <a class="navbar-brand py-2" [routerLink]="['/']" >LanzaApp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse w-100" id="navbarNav">
             <ul class="navbar-nav ml-auto d-flex justify-content-between">
-                <li class="nav-item active " routerLinkActive="active">
-                    <a class="nav-link py-2" (click)="ir_top()">Inicio</a>
+                <li class="nav-item active ">
+                    <a class="nav-link py-2" (click)="ir_top()"> {{ 'header.home'  | translate  }} </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link py-2" (click)="ir_caracteristica()">Caracteristicas</a>
-                </li>
-                <li class="nav-item" >
-                    <a class="nav-link py-2" (click)="ir_captures()">Capturas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link py-2" (click)="ir_precio()">Precio</a>
@@ -24,11 +21,21 @@
                 <li class="nav-item">
                     <a class="nav-link py-2 btn btn-outline-primary px-3 ml-2 text-primary" data-ripple-color="dark" href="/app/" >Go to app</a>
                 </li>
-                <li class="nav-item">
-                  <button class="nav-link py-2 btn btn-outline-primary px-3 ml-2 lang" (click)="langs()" >
+              <li>
+                <div class="dropdown">
+                  <button class="btn btn-outline-primary nav-link py-2  px-3 ml-2 lang dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src="../../../assets/flags/{{translate.currentLang}}.png" alt="Img Flag">
                     {{translate.currentLang}}
                   </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item lang" (click)="lang('es')" >
+                      <img src="../../../assets/flags/es.png" alt="Img Flag">es
+                    </a>
+                    <a class="dropdown-item lang" (click)="lang('en')">
+                      <img src="../../../assets/flags/en.png" alt="Img Flag">en
+                    </a>
+                  </div>
+                </div>
               </li>
             </ul>
         </div>
