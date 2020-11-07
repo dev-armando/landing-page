@@ -49,7 +49,8 @@ export class HeaderComponent implements OnInit {
   }
 
   ir_precio(){
-    document.querySelector("body > app-root > app-pages > div > app-inicio > app-precie > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
+    window.location.assign(`http://${window.location.host}/#/precio`)
+    window.scrollTo({top:0,behavior: 'smooth'})
   }
 
   ir_contacto(){
