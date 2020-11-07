@@ -8,7 +8,6 @@ import { ComponentsModule } from '../../components/components.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-
 const routes: Routes = [
   { path:'inicio', component: InicioComponent },
   { path:'precio', component: PriceComponent }
@@ -20,7 +19,7 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes),
     RouterModule,
-    SharedModule,
+
     ComponentsModule,
     NgxSpinnerModule,
     FormsModule,

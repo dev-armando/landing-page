@@ -14,7 +14,8 @@ export class HeaderComponent implements OnInit {
     public translate:TranslateService,
   ) {
     this.contacto_activo = false
-    translate.addLangs(["es","en"])
+
+    translate.addLangs(["es","en"]);
     translate.setDefaultLang('es');
     translate.use('es');
    }

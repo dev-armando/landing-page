@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { Tabla } from '../../interfaces/index'
 
 @Component({
@@ -13,9 +14,12 @@ export class PrecieComponent implements OnInit {
   tabla_3: Tabla;
   tablas: Tabla[] = [];
 
-  constructor() { 
+  constructor(public translate: TranslateService) {
+     translate.addLangs(["es","en"])
+    translate.setDefaultLang('es');
+    translate.use('es');
     this.tabla_1 = {
-      plan: "Estandar",
+      plan: translate.instant("price.standard"),
       precio: '50,30' ,
       atributos: [
         'Podrás crear hasta 5 diseños',

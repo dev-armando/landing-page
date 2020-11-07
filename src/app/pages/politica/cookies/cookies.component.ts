@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-cookies',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CookiesComponent implements OnInit {
 
-  constructor() { }
+  constructor(public translate: TranslateService) {
+    translate.addLangs(["es","en"])
+    translate.setDefaultLang('es');
+    translate.use('es');
+   }
 
   ngOnInit(): void {
   }

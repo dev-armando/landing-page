@@ -29,6 +29,30 @@
     "text_4" : "Ingresa tu Correo Electronico",
     "text_5" : "Ingresa tu mensaje",
     "send" : "Enviar"
-  }
+  },
+  "politicas" : {
+    "text_1" : "Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. Política de cookies y de seguridad",
+    "in_agreement" : "De acuerdo"
+  },
 
+ "price" : {
+  "standard" : "Estandar",
+  "text_2" : "",
+  "text_3" : "",
+  "text_5" : "",
+  "text_6" : "",
+  "text_7" : "",
+  "text_8" : "",
+  "text_9" : "",
+  "text_10" : "",
+  "text_11" : "",
+  "text_12" : "",
+  "text_13" : "",
+  "text_14" : "",
+  "text_15" : "",
+  "text_16" : "",
+  "text_17" : "",
+  "text_18" : "",
+  "text_19" : ""
+ }
 }

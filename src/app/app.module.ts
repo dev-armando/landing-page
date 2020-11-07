@@ -35,7 +35,7 @@ import { RouterModule } from '@angular/router';
     }),
     RouterModule
   ],
-  exports:[  ],
+  exports:[ ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,14 @@
+.container{
+
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  transition: .5s;
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  pointer-events: none;
+  max-width: 800px;
+  border: 0.1px solid black;
+
+  }
