@@ -21,5 +21,14 @@
   "anuncio" : {
     "text_1" : "Descarga LanzaApp y Empieza a Crear!",
     "text_2" : "Recuerda que ¡Con LanzaApp lo que esta en tu mente se hace realidad!"
+  },
+  "contacto":{
+    "text_1" : "Tienes Alguna pregunta que hacer sobre LanzaApp?",
+    "text_2" : "Ingresa tu Nombre",
+    "text_3" : "Ingresa tu Apellido",
+    "text_4" : "Ingresa tu Correo Electronico",
+    "text_5" : "Ingresa tu mensaje",
+    "send" : "Enviar"
   }
+
 }

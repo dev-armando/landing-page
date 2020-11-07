@@ -21,5 +21,13 @@
   "anuncio" : {
     "text_1" : "Download LanzaApp and Start Creating!",
     "text_2" : "Remember that with LanzaApp what is on your mind becomes reality!"
+  },
+  "contacto":{
+    "text_1" : "Do you have any questions to ask about LanzaApp?",
+    "text_2" : "Enter your Name",
+    "text_3" : "Enter your last name",
+    "text_4" : "Enter your Email",
+    "text_5" : "Enter your message",
+    "send" : "Send"
   }
 }

@@ -6,6 +6,7 @@ import { NgbTimepickerConfig } from '@ng-bootstrap/ng-bootstrap';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { config } from 'rxjs';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contacto',
@@ -26,14 +27,21 @@ export class ContactoComponent implements OnInit {
 
   forma: FormGroup;
 
-  constructor(private servicio_user: UserService,
-    private fb: FormBuilder,) { 
+  constructor(
+    private servicio_user: UserService,
+    private fb: FormBuilder,
+    public translate : TranslateService
+    ) {
     this.forma = this.fb.group({
       nombre: [null, Validators.required],
       lastname: [null, Validators.required],
       email: [null, Validators.required],
       years_old: [null, Validators.required]
     });
+
+    translate.addLangs(["es","en"])
+    translate.setDefaultLang('es');
+    translate.use('es')
   }
 
   ngOnInit(): void {
@@ -51,7 +59,7 @@ export class ContactoComponent implements OnInit {
       Correo: (<HTMLInputElement>document.querySelector("#Correo")).value,
       msg: (<HTMLInputElement>document.querySelector("#mensaje")).value
     }
-    
+
     // console.log(document.querySelector("#firstname").value)
     // console.log(document.querySelector("#lastname").value)
     // console.log(document.querySelector("#Correo").value)
