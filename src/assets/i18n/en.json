@@ -5,5 +5,21 @@
     "price" : "Price",
     "contact_us" : "Contact us",
     "login" : "Login"
+  },
+  "face_page" : {
+    "text_1" : "LET'S BUILD YOUR APP",
+    "text_2" : "LANZAPP, your project builder, that in just 5 minutes, you will be presenting your MPV to the market at cost 0.",
+    "text_3" : "Test, analyze the behavior of visitors and, most importantly, find out if your idea - concept fits and is viable.",
+    "text_4" : "Get into the digital age, get on LANZAPP !!!",
+    "start" : "Start"
+  },
+  "footer" : {
+    "text_1" : "Terms and Conditions",
+    "text_2" : "Privacy policies",
+    "text_3" : "Cookies Policy"
+  },
+  "anuncio" : {
+    "text_1" : "Download LanzaApp and Start Creating!",
+    "text_2" : "Remember that with LanzaApp what is on your mind becomes reality!"
   }
 }

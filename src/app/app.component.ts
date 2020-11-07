@@ -13,7 +13,7 @@ export class AppComponent {
   ngOnInit() {
     /** spinner starts on init */
     this.spinner.show();
- 
+
     setTimeout(() => {
       this.spinner.hide();
     }, 500);

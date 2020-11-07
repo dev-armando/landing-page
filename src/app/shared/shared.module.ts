@@ -7,7 +7,6 @@ import { WhatsIconComponent } from './whats-icon/whats-icon.component';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
-
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -17,14 +16,12 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   imports: [
     CommonModule,
-    RouterModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'en'
-  })
+    RouterModule
   ],
   exports: [
     HeaderComponent,
-    WhatsIconComponent
+    WhatsIconComponent,
+    TranslateModule
   ]
 })
 export class SharedModule { }

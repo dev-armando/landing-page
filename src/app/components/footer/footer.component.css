@@ -4,6 +4,10 @@
 footer{
     background: #1f2024;
 }
+
+footer a{
+  cursor: pointer;
+}
 @media (min-width: 0px) and (max-width: 450px){
     .row{
         flex-direction: column;

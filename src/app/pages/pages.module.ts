@@ -4,8 +4,6 @@ import { SharedModule } from '../shared/shared.module';
 import { Routes, RouterModule } from '@angular/router';
 import { PagesComponent } from './pages.component';
 import { ComponentsModule } from '../components/components.module';
-// import { PanelComponent } from './panel/panel.component'
-
 
 const routes: Routes = [
   {path: '', loadChildren: () => import('./inicio/inicio.module').then(mod => mod.InicioModule)},
@@ -20,9 +18,8 @@ const routes: Routes = [
     RouterModule,
     SharedModule,
     ComponentsModule
-  ],
-  exports: [
 
-  ]
+  ],
+  exports: []
 })
 export class PagesModule { }

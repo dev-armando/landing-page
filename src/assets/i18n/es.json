@@ -5,5 +5,21 @@
     "price" : "Precio",
     "contact_us" : "Contactanos",
     "login" : "Iniciar sesión"
+  },
+  "face_page" : {
+    "text_1" : "CONSTRUYAMOS TU APLICACIÓN",
+    "text_2" : "LANZAPP, tu constructor de proyectos, que en tan solo 5 minutos, estarás presentando en el mercado tú MPV a coste 0.",
+    "text_3" : "Testear, analiza el comportamiento de los visitantes y lo más importante, averigua si tu idea - concepto encaja y tiene viabilidad.",
+    "text_4" : "Súbete a la era digital, súbete a LANZAPP!!!",
+    "start" : "Empezar"
+  } ,
+  "footer" : {
+    "text_1" : "Términos y Condiciones",
+    "text_2" : "Politicas de Privacidad",
+    "text_3" : "Politicas de Cookies"
+  },
+  "anuncio" : {
+    "text_1" : "Descarga LanzaApp y Empieza a Crear!",
+    "text_2" : "Recuerda que ¡Con LanzaApp lo que esta en tu mente se hace realidad!"
   }
 }

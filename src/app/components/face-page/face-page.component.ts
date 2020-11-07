@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-face-page',
@@ -7,8 +8,10 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class FacePageComponent implements OnInit {
 
-  constructor() { 
-    
+  constructor(public translate: TranslateService) {
+    translate.addLangs(["es","en"])
+    translate.setDefaultLang('es');
+    translate.use('es')
   }
 
   ngOnInit(): void {
@@ -16,7 +19,7 @@ export class FacePageComponent implements OnInit {
 
   imprimir(event){
     console.log(event);
-    
+
   }
 
   @HostListener("scroll", ['$event'])
