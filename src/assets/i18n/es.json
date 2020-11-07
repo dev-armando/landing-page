@@ -1,5 +1,9 @@
 {
   "header":{
-    "home" : "Inicio"
+    "home" : "Inicio",
+    "characteristics" : "Caracteristicas",
+    "price" : "Precio",
+    "contact_us" : "Contactanos",
+    "login" : "Iniciar sesión"
   }
 }

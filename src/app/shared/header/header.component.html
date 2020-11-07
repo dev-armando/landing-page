@@ -10,16 +10,18 @@
                     <a class="nav-link py-2" (click)="ir_top()"> {{ 'header.home'  | translate  }} </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-2" (click)="ir_caracteristica()">Caracteristicas</a>
+                    <a class="nav-link py-2" (click)="ir_caracteristica()">{{ 'header.characteristics'  | translate  }} </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-2" (click)="ir_precio()">Precio</a>
+                    <a class="nav-link py-2" (click)="ir_precio()">{{ 'header.price'  | translate  }}</a>
                 </li>
                 <li class="nav-item contact" (click)="contacto()">
-                    <a class="nav-link py-2" data-ripple-color="dark" (click)="ir_contacto()">Contactanos</a>
+                    <a class="nav-link py-2" data-ripple-color="dark" (click)="ir_contacto()">{{ 'header.contact_us'  | translate  }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-2 btn btn-outline-primary px-3 ml-2 text-primary" data-ripple-color="dark" href="/app/" >Go to app</a>
+                    <a class="nav-link py-2 btn btn-outline-primary px-3 ml-2 text-primary" data-ripple-color="dark" href="/app/#/login" >
+                      {{ 'header.login'  | translate  }}
+                    </a>
                 </li>
               <li>
                 <div class="dropdown">

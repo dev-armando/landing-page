@@ -1,5 +1,9 @@
 {
   "header":{
-    "home" : "Home"
+    "home" : "Home" ,
+    "characteristics" : "Characteristics",
+    "price" : "Price",
+    "contact_us" : "Contact us",
+    "login" : "Login"
   }
 }
