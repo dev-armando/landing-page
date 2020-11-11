@@ -39,9 +39,7 @@ export class ContactoComponent implements OnInit {
       years_old: [null, Validators.required]
     });
 
-    translate.addLangs(["es","en"])
-    translate.setDefaultLang('es');
-    translate.use('es')
+
   }
 
   ngOnInit(): void {

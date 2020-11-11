@@ -15,12 +15,13 @@ export class HeaderComponent implements OnInit {
   ) {
     this.contacto_activo = false
 
-    translate.addLangs(["es","en"]);
-    translate.setDefaultLang('es');
-    translate.use('es');
    }
 
   ngOnInit(): void {
+
+    this.translate.addLangs(["es","en"]);
+    this.translate.setDefaultLang('es');
+    this.translate.use('es');
   }
 
   contacto() {

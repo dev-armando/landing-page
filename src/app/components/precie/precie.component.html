@@ -1,27 +1,28 @@
 <div class="container w-100 py-2">
+  <br><br><br> <br> <br> <br>
     <div class="header">
-        <h2 class="text-center px-4">Precios</h2>
-        <p class="text-center">Elige el plan adecuado para Trabajar con LanzaApp</p>
+        <h2 class="text-center px-4"> {{ 'price.price' | translate }} </h2>
+        <p class="text-center"> {{ 'price.text_1' | translate }} </p>
     </div>
     <div class="content row py-3 justify-content-center w-auto">
         <div class="col tabla rounded m-3" *ngFor="let tabla of tablas; let i = index">
-            <h4 class="text-center bg-primary p-3 w-100">{{tabla.plan}}</h4>
+            <h4 class="text-center bg-primary p-3 w-100">{{tabla.plan | translate }}</h4>
             <div class="head py-2 px-5 mt-3">
                 <h5 class="text-center">
-                    <span>€/mes </span>
+                    <span>€/{{ 'price.month' | translate }}</span>
                     <span>{{tabla.precio}}</span>
                 </h5>
             </div>
             <div class="content w-100">
                 <h6 *ngFor="let item of tabla.atributos " class="text-center px-1">
                     <hr class="w-100">
-                    {{item}}
+                    {{item | translate }}
                 </h6>
                 <hr class="w-100 ultimo">
             </div>
             <div class="button">
                 <button class="btn btn-primary w-100">
-                    Seleccionar Plan
+                  {{ 'price.select_plan' | translate }}
                 </button>
             </div>
         </div>

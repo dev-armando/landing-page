@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-caracteristicas',
@@ -11,18 +12,19 @@ export class CaracteristicasComponent implements OnInit {
   descripciones: String[];
   size_icon: number;
 
-  constructor() {
+  constructor(public transalte: TranslateService) {
     this.caracteristicas = [
-      'Diseño Profesional',
-      'Sin Experiencia en Diseño',
-      'Diseño en 5 Minutos!'
+      'investor',
+      'developer',
+      'entrepreneur'
     ];
     this.size_icon = 2
     this.descripciones = [
-      'LanzaApp de están a la vanguardia de los diseños actuales por ellos los que hagas con nosotros podrán tener la misma calidad que con diseñador profesional',
-      'Solo necesitas seguir las instrucciones que te damos y rápidamente tendrás ese diseño que tantas esperas, y no necesitas recurrir a cumplidas técnicas para expresar lo que deseas',
-      'Al ser organizado y minimalista lo diseños se crean en un promedio de 5 minutos'
+      'caracteristicas.text_1',
+      'caracteristicas.text_2',
+      'caracteristicas.text_3',
     ]
+
    }
 
   ngOnInit(): void {

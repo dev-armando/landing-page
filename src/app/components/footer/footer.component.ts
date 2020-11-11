@@ -9,9 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class FooterComponent implements OnInit {
 
   constructor(public translate: TranslateService) {
-    translate.addLangs(["es","en"])
-    translate.setDefaultLang('es');
-    translate.use('es')
+
    }
 
   ngOnInit(): void {

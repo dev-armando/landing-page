@@ -12,14 +12,15 @@ import { SharedModule } from '../shared/shared.module';
 import { PrecieComponent } from './precie/precie.component';
 import { PoliticasCookiesComponent } from './politicas-cookies/politicas-cookies.component';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [PorqueComponent, CaracteristicasComponent, ContactoComponent, FooterComponent, CaptureComponent, StacsComponent, AnuncioComponent, FacePageComponent, PrecieComponent, PoliticasCookiesComponent],
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
-
+    RouterModule,
+    TranslateModule
   ],
   exports: [
     PorqueComponent,

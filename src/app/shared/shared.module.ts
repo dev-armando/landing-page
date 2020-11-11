@@ -21,8 +21,7 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   exports: [
     HeaderComponent,
-    WhatsIconComponent,
-    TranslateModule
+    WhatsIconComponent
   ]
 })
 export class SharedModule { }

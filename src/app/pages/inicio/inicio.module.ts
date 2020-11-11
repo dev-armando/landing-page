@@ -7,6 +7,7 @@ import { SharedModule } from '../../shared/shared.module';
 import { ComponentsModule } from '../../components/components.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TranslateModule } from '@ngx-translate/core';
 
 const routes: Routes = [
   { path:'inicio', component: InicioComponent },
@@ -19,7 +20,6 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes),
     RouterModule,
-
     ComponentsModule,
     NgxSpinnerModule,
     FormsModule,
