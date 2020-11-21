@@ -61,6 +61,8 @@ export class PrecieComponent implements OnInit {
     this.translate.addLangs(["es","en"]);
     this.translate.setDefaultLang('es');
     this.translate.use('es');
+
+    localStorage.setItem('controlFrontal' , '0')
   }
 
 

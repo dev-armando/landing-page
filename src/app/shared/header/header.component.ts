@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent implements OnInit {
 
   contacto_activo: boolean
+  controlFrontal:number = 0;
 
   constructor(
     public translate:TranslateService,
@@ -42,7 +43,10 @@ export class HeaderComponent implements OnInit {
   }
 
   ir_caracteristica(){
-    window.location.assign(`http://${window.location.host}/#/`)
+
+    let controlFrontal: number = parseInt(localStorage.getItem('controlFrontal'))
+    if(controlFrontal == 0)
+      window.location.assign(`http://${window.location.host}/#/`)
     document.querySelector("body > app-root > app-pages > div > app-inicio > app-caracteristicas > div").scrollIntoView({ block: 'end',  behavior: 'smooth' })
   }
 
@@ -51,17 +55,23 @@ export class HeaderComponent implements OnInit {
   }
 
   ir_precio(){
-    window.location.assign(`http://${window.location.host}/#/precio`)
+    let controlFrontal: number = parseInt(localStorage.getItem('controlFrontal'))
+    if(controlFrontal == 1)
+      window.location.assign(`http://${window.location.host}/#/precio`)
     window.scrollTo({top:0,behavior: 'smooth'})
   }
 
   ir_contacto(){
-    window.location.assign(`http://${window.location.host}/#/`)
+    let controlFrontal: number = parseInt(localStorage.getItem('controlFrontal'))
+    if(controlFrontal == 0)
+      window.location.assign(`http://${window.location.host}/#/`)
     document.querySelector("#contacto").scrollIntoView({ block: 'end',  behavior: 'smooth' })
   }
 
   ir_top(){
-    window.location.assign(`http://${window.location.host}/#/`)
+    let controlFrontal: number = parseInt(localStorage.getItem('controlFrontal'))
+    if(controlFrontal == 0)
+      window.location.assign(`http://${window.location.host}/#/`)
     window.scrollTo({top:0,behavior: 'smooth'})
   }
 

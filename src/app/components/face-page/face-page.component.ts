@@ -13,6 +13,7 @@ export class FacePageComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    localStorage.setItem('controlFrontal' , '1')
   }
 
   imprimir(event){
