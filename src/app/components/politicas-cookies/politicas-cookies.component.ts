@@ -7,20 +7,21 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./politicas-cookies.component.css']
 })
 export class PoliticasCookiesComponent implements OnInit {
-
-
-
+  public control: boolean = true ;
   constructor(public translate: TranslateService) {
 
-   }
+  }
 
   ngOnInit(): void {
+    if( !localStorage.getItem('politicas') )
+      localStorage.setItem('politicas' , 'true')
+
+    this.control = (localStorage.getItem('politicas') == 'true')
   }
 
   desctivar(){
-    document.querySelector(".poli_cook").innerHTML = ""
-    document.querySelector(".poli_cook").classList.remove('p-3')
-
+    this.control = false;
+    localStorage.setItem('politicas' , 'false')
   }
 
   privacidad(){

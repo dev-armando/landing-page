@@ -1,4 +1,4 @@
-<div class="poli_cook bg-light w-100 p-3 d-flex">
+<div class="poli_cook bg-light w-100 p-3 d-flex" *ngIf="control" >
     <span class="col">
       {{ 'politicas.text_1' | translate }}
       <a class="text-link" (click)="terminos()" > <small>{{ 'footer.text_1' | translate }}</small> </a> |
