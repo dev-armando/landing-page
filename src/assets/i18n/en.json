@@ -1,0 +1,73 @@
+{
+  "header":{
+    "home" : "Home" ,
+    "characteristics" : "Characteristics",
+    "price" : "Price",
+    "contact_us" : "Contact us",
+    "login" : "Login"
+  },
+  "face_page" : {
+    "text_1" : "LET'S BUILD YOUR APP",
+    "text_2" : "LANZAPP, your project builder, that in just 5 minutes, you will be presenting your MPV to the market at cost 0.",
+    "text_3" : "Test, analyze the behavior of visitors and, most importantly, find out if your idea - concept fits and is viable.",
+    "text_4" : "Get into the digital age, get on LANZAPP !!!",
+    "start" : "Start"
+  },
+  "footer" : {
+    "text_1" : "Terms and Conditions",
+    "text_2" : "Privacy policies",
+    "text_3" : "Cookies Policy"
+  },
+  "anuncio" : {
+    "text_1" : "Download LanzaApp and Start Creating!",
+    "text_2" : "Remember that with LanzaApp what is on your mind becomes reality!"
+  },
+  "contacto":{
+    "text_1" : "Do you have any questions to ask about LanzaApp?",
+    "text_2" : "Enter your Name",
+    "text_3" : "Enter your last name",
+    "text_4" : "Enter your Email",
+    "text_5" : "Enter your message",
+    "send" : "Send"
+  },
+  "politicas" : {
+    "text_1" : "We use our own and third-party cookies to improve the user experience through browsing. If you continue browsing you accept its use. Cookies and security policy",
+    "in_agreement" : "In agreement"
+  },
+  "price": {
+    "standard": "Standard",
+    "price": "Prices",
+    "select_plan": "Select Plan",
+    "month": "Month",
+    "text_1": "Choose the right plan to work with LanzaApp",
+    "text_2": "You can create up to 5 designs",
+    "text_3": "You can publish 2 public designs",
+    "text_4": "You can publish 1 private design",
+    "text_5": "30 days of exposure in your designs.",
+    "text_6": "Without accessory",
+    "text_7": "You can create up to 5 designs",
+    "text_8": "You can publish 5 public designs",
+    "text_9": "You can publish 3 private designs",
+    "text_10": "60 days of exposure in your designs.",
+    "text_11": "Without accessory",
+    "text_12": "You can create up to 10 designs",
+    "text_13": "You can publish 10 public designs",
+    "text_14": "You can publish 5 private designs",
+    "text_15": "90 days of exposure in your designs.",
+    "text_16": "You will have professional accessories"
+   },
+  "investor": "Investor",
+  "developer": "Developer",
+  "entrepreneur": "Entrepreneur",
+  "caracteristicas":{
+    "text_1": "Register if you are an investor in the largest bank of digital projects.",
+    "text_2": "The definitive tool with which you can work quickly and easily with your client. ",
+    "text_3": "If you have in mind to jump into the digital world and create a project at the application level, online store or commercial presentation."
+  },
+  "porque" : {
+    "text_1": "Create Amazing Designs",
+    "text_2": "Take your content to the next level with",
+    "text_3": "You don't need Design skills! To be able to create professional components",
+    "text_4": "We offer you thousands of pre-configured panels so that in a few simple steps you can build your app, simply find the one that best suits the template you are creating, drop it in the creation area and that's all, you just have to follow the steps we give you and you can have the design or prototype of that idea that you want so much. "
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "header":{
+    "home" : "Inicio",
+    "characteristics" : "Caracteristicas",
+    "price" : "Precio",
+    "contact_us" : "Contactanos",
+    "login" : "Iniciar sesión"
+  },
+  "face_page" : {
+    "text_1" : "CONSTRUYAMOS TU APLICACIÓN",
+    "text_2" : "LANZAPP, tu constructor de proyectos, que en tan solo 5 minutos, estarás presentando en el mercado tú MPV a coste 0.",
+    "text_3" : "Testear, analiza el comportamiento de los visitantes y lo más importante, averigua si tu idea - concepto encaja y tiene viabilidad.",
+    "text_4" : "Súbete a la era digital, súbete a LANZAPP!!!",
+    "start" : "Empezar"
+  } ,
+  "footer" : {
+    "text_1" : "Términos y Condiciones",
+    "text_2" : "Politicas de Privacidad",
+    "text_3" : "Politicas de Cookies"
+  },
+  "anuncio" : {
+    "text_1" : "Descarga LanzaApp y Empieza a Crear!",
+    "text_2" : "Recuerda que ¡Con LanzaApp lo que esta en tu mente se hace realidad!"
+  },
+  "contacto":{
+    "text_1" : "Tienes Alguna pregunta que hacer sobre LanzaApp?",
+    "text_2" : "Ingresa tu Nombre",
+    "text_3" : "Ingresa tu Apellido",
+    "text_4" : "Ingresa tu Correo Electronico",
+    "text_5" : "Ingresa tu mensaje",
+    "send" : "Enviar"
+  },
+  "politicas" : {
+    "text_1" : "Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. Política de cookies y de seguridad",
+    "in_agreement" : "De acuerdo"
+  },
+
+ "price" : {
+  "standard" : "Estandar",
+  "price" : "Precios",
+  "select_plan" : "Seleccionar Plan" ,
+  "month" : "Mes" ,
+  "text_1": "Elige el plan adecuado para Trabajar con LanzaApp",
+  "text_2": "Podrás crear hasta 5 diseños",
+  "text_3": "Podrás publicar 2 diseños públicos",
+  "text_4": "Podrás publicar 1 diseño privado",
+  "text_5": "30 días de exposición en tus diseños. ",
+  "text_6": "Sin accesoria",
+  "text_7": "Podrás crear hasta 5 diseños",
+  "text_8": "Podrás publicar 5 diseños públicos",
+  "text_9": "Podrás publicar 3 diseño privado",
+  "text_10": "60 días de exposición en tus diseños. ",
+  "text_11": "Sin accesoria",
+  "text_12":"Podrás crear hasta 10 diseños",
+  "text_13": "Podrás publicar 10 diseños públicos",
+  "text_14": "Podrás publicar 5 diseño privado",
+  "text_15": "90 días de exposición en tus diseños. ",
+  "text_16": "Tendrás accesoria profesional "
+ },
+ "investor": "Inversor",
+  "developer": "Desarrollador",
+  "entrepreneur": "Emprendedor",
+  "caracteristicas":{
+    "text_1" : "Registrate si eres inversor en el  mayor banco de proyectos digitales.",
+    "text_2" : "La herramienta definitiva con la que podrás trabajar de una manera rápida y sencilla.",
+    "text_3" : "Si tienes en mente lanzarte al mundo digital y crear un proyecto a nivel aplicación, tienda online o presentación comercial."
+  },
+  "porque":{
+    "text_1" : "Crea Diseños increíbles",
+    "text_2" : "¡Lleve su contenido al siguiente nivel con",
+    "text_3" : "¡No se necesitan habilidades de Diseño!, para poder crear componentes profesionales",
+    "text_4" : "Te ofrecemos miles de paneles pre configurados para que en unos simples pasos puedas armar tu app, simple busca el que más se adapta al témplate que estas creando suéltalo en el área de creación y eso es todo, solo debes seguir los pasos que te damos y podrás tener el diseño o prototipo de esa idea que tanto deseas."
+  }
+
+}
