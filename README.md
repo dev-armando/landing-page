@@ -13,6 +13,18 @@
 - Multi Language
 - Fully Responsive
 
+<br> <br>
+<img src="img/img1.png">
+
+<br> <br>
+<img src="img/img2.png">
+
+<br> <br>
+<img src="img/img3.png">
+
+<br> <br>
+<img src="img/img.gif">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Development server
